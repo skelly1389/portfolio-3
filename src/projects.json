@@ -5,7 +5,7 @@
         "description": "A deployed, full stack application that allows users to create accounts, search for movies, and add them to custom lists that are displayed on the home page",
         "deployed": "https://patient-wave-6474.herokuapp.com/",
         "repo": "https://github.com/skelly1389/group-project-2",
-        "screenshot": "./assets/screenshots/movieaoo.png"
+        "screenshot": "https://raw.githubusercontent.com/artemissorrow/group-project-2/main/assets/moviescreenshot1.png"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "description": "Displays date color coordinates hours left in the workday. Allows user to save tasks to each hour so that they load on refresh",
         "deployed": "https://skelly1389.github.io/Work-Day-Scheduler/",
         "repo": "https://github.com/skelly1389/Work-Day-Scheduler",
-        "screenshot": "./assets/screenshots/scheduler.png"
+        "screenshot": "https://raw.githubusercontent.com/skelly1389/Work-Day-Scheduler/main/assets/screenshots/screenshot1.png"
     },
     {
         "id": 4,
