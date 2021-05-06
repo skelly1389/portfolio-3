@@ -1,47 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Pupster
-      </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/discover"
-              className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
-            >
-              Discover
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
-            >
-              Search
-            </Link>
-          </li>
-        </ul>
+    <div>
+        <header className="row">
+          <h1 className="row-4 ml-1">Sean Kelly</h1>
+          <nav className="row-8">
+            <a href="#work">work</a>
+            <a href="https://www.linkedin.com/in/sean-kelly-2b7818bb/" target="_blank">linkedIn</a>
+            <a href="./assets/Sean-Kelly.pdf" target="_blank">resume</a>
+            <a href="#contact">contact me</a>
+          </nav>
+        </header>
+        <figure id="backgroundhead" className="pl-1 m-1 mt-4">
+          <img src="./assets/himg.jfif" height={250} width={250} alt="hero shot of sean" className="profilepic rounded-circle" />
+          <h3>fullstack web developer</h3>
+        </figure>
       </div>
-    </nav>
   );
 }
 
