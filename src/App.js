@@ -1,12 +1,12 @@
-import Nav from "./components/Navbar/"
+import Header from "./components/Header"
 import Foot from "./components/Footer/"
-import Main from "./components/Main"
+import Project from "./pages/Project"
 
 function App() {
   return (
     <div>
-    <Nav></Nav>
-    <Main></Main>
+    <Header></Header>
+    <Project></Project>
     <Foot></Foot>
     </div>
   );
