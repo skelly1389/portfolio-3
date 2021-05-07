@@ -6,7 +6,7 @@ Messing with translating html and css pages into simple react apps and using reu
 
 ## Installation
 
-Live site at [https://skelly1389.github.io/portfolio-3/](https://skelly1389.github.io/Revised_Portfolio/)
+Live site at [https://skelly1389.github.io/portfolio-3/](https://skelly1389.github.io/portfolio-3/)
 
 ## Usage
 Clickable links to my profiles on github and linkedin as well as links to three of the best homeworks and projects I've completed in the course so far.
