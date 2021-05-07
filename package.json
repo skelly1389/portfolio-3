@@ -2,7 +2,7 @@
   "name": "portfolio-3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://skelly1389.github.io/portfolio-3",
+  "homepage": "https://skelly1389.github.io/portfolio-3/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
